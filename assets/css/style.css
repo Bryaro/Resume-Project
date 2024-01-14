@@ -38,6 +38,14 @@ background-color: #e67e22;
     background-color: teal;
     }
 
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
 /* ----------------Special paddings/margins/text-------------- */
 
 h1,h2,h3,h4 {
@@ -54,7 +62,7 @@ h1,h2,h3,h4 {
     color: #fafafa;
 }
 
-.row row-table {
+.row-table {
     display: table;
 }
 
@@ -151,7 +159,7 @@ header {
 }
 
 .menuitem span {
-    display:  block;
+    display: block;
     width: 100%;
     padding-top: 5px;
     text-align: center;
@@ -354,6 +362,10 @@ button[type="submit"] {
     -webkit-transition: all .5s ease-in-out;
 }
 
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
+}
 
 /* ----------------Media Queries-------------- */
 
