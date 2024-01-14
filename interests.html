@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-<script type="module" src="./assets/js/maps.js"></script>
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Bryar</title>
 </head>
@@ -62,7 +61,7 @@
                 <div class="row">
                     <div class="col-12">
                         <h3 class="section-heading uppercase">
-                            Interests
+                            Places of interest
                         </h3>
                     </div>
                 </div>
@@ -192,21 +191,10 @@
 
     </footer>
 
-    <script>
-        function initMap(){
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 3,
-                center: {
-                    lat: 46.619261,
-                    lng: -33.134766
-                }
-            });
-        }
-    </script>
-
     <script
         src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwYflRWKTTp5zvjrBB3H8t19J3vACv-sU&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
     </body>
 
 </html>
