@@ -7,6 +7,14 @@ function sendMail(contactForm) {
     .then(
         function(response){
             console.log("SUCCESS", response);
+            // Show the thank you modal
+            $('#thankYouModal').modal('show');
+
+            // Event listener for modal close
+            $('#thankYouModal').on('hidden.bs.modal', function () {
+                // Reset the form here
+                contactForm.reset();
+            });
         },
         function(error) {
             console.log("FAILED", error);
