@@ -14,12 +14,10 @@
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
 <script type="text/javascript">
-   (function(){
+   (function() {
       emailjs.init("Qu0gkdNg9xI1UUDYC");
     })();
 </script>
-
-
     <title>Bryar</title>
 </head>
 <body>
@@ -69,9 +67,9 @@
                 <h5 class="uppercase text-center">Let's work together</h5>
 
                 <div class="center-form">
-                    <form>
+                    <form onsubmit="return sendMail(this)";>
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="name" required>
-                        <input type="text" name="emai" id="emailaddress" class="form-control" placeholder="Email" required>
+                        <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email" required>
                         <textarea name="projectsummary" id="projectsummary" class="form-control" cols="30" rows="10" placeholder="Describe your project here" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
@@ -115,5 +113,6 @@
         </div>
 
     </footer>
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 </html>
