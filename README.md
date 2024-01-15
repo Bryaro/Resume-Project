@@ -1,4 +1,4 @@
-# Resume Project  [Open this Resume website](https://github.com/Bryaro/Resume-Project)
+# Resume Project  [Open this Resume website](https://bryaro.github.io/Resume-Project/)
 
 ## Overview
 
@@ -29,7 +29,7 @@ Please note, this README is currently a work in progress and may be updated to i
 
 ## How to Use
 
-You can view the live project [here](https://github.com/Bryaro/Resume-Project). Feel free to explore the features and codebase.
+You can view the live project [here](https://bryaro.github.io/Resume-Project/). Feel free to explore the features and codebase.
 
 ---
 
