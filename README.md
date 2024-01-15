@@ -1,39 +1,38 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Resume Project  [Open this Resume website](https://github.com/Bryaro/Resume-Project)
 
-Welcome,
+## Overview
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This repository contains the Resume Project, a study project showcasing my skills in web development. The project is built using HTML, CSS, JavaScript, and Flask, a lightweight Python web framework.
+![](/assets/images/responsive.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features
 
-## Codeanywhere Reminders
+- **Personal Resume**: A detailed presentation of my skills, experiences, and projects.
+- **Contact Form**: Integrated with EmailJS to send messages directly from the website.
+- **Responsive Design**: Ensures the website is functional and visually appealing across different devices and screen sizes.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Technologies Used
 
-`python3 -m http.server`
+- **HTML**: For structuring the website content.
+- **CSS**: For styling and layout enhancements.
+- **JavaScript**: To add interactivity to the web pages.
+- **Flask**: A micro web framework written in Python, used for backend development.
+- **EmailJS**: To enable sending emails directly from the frontend without a backend server.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Project Purpose
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+This project serves as a practical application of web development skills and a platform to showcase my abilities to potential employers or clients.
 
-`http_server`
+## Current Work
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Please note, this README is currently a work in progress and may be updated to include more detailed information about the project, its setup, and usage in the future.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## How to Use
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+You can view the live project [here](https://github.com/Bryaro/Resume-Project). Feel free to explore the features and codebase.
 
 ---
 
-Happy coding!
+This is a study project and part of my learning journey in web development. Feedback and contributions are welcome!
+
+[Go Back to Top](#resume-project)
